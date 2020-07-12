@@ -1,0 +1,64 @@
+.projecthtml {
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-image: url(https://blytheconstruction.com/wp-content/themes/blythe-construction/images/DSC05538@2x.png);
+}
+
+.nav {
+	background-color: transparent;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 0 0 15px;
+	padding: 0px;
+	overflow: hidden;
+	border: 2px solid #e7e7e7;
+	background-color: transparent;
+}
+
+li {
+	float: left;
+	border-right:1px solid #bbb;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: white;
+}
+
+li a.active {
+	color: white;
+	background-color: orange;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+#about {
+	float: right;
+}
+
+.head {
+	text-align: center;
+}
+
+#owner {
+	color: blue;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 10px;
+}
