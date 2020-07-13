@@ -5,6 +5,14 @@
 	background-image: url(https://blytheconstruction.com/wp-content/themes/blythe-construction/images/DSC05538@2x.png);
 }
 
+.phtml {
+	height: 100vh;
+	background-size: 75%;
+	background-position: center;
+	background-image: url(https://kleconstruction.net/wp-content/uploads/2019/11/Copy-of-19096_BUILDWITT_0975.jpg);
+	background-repeat: no-repeat;
+}
+
 .html {
 	height: 100vh;
 	background-size: cover;
