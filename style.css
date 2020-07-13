@@ -71,6 +71,10 @@ li a.active {
 	padding-top: 0px;
 	padding-bottom: 250px;
 	text-align: center;
+}
+
+.phead {
+	text-align: center;
 
 }
 
@@ -84,7 +88,7 @@ li a.active {
 }
 
 .text {
-	color: blue;
+	color:blue;
 	padding: 50px;
 	margin-top: 350px;
 	margin-left: 100px;
