@@ -7,7 +7,7 @@
 
 .html {
 	height: 100vh;
-	background-size: 75%;
+	background-size: cover;
 	background-position: center;
 	background-image: url(https://kleconstruction.net/wp-content/uploads/2019/11/Copy-of-19096_BUILDWITT_0975.jpg);
 	background-repeat: no-repeat;
