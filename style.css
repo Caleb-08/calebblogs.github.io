@@ -74,6 +74,15 @@ li a.active {
 
 }
 
+.ptext {
+	color:blue;
+	padding: 50px;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 150px;
+}
+
 .text {
 	color: blue;
 	padding: 50px;
