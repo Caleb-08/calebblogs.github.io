@@ -78,10 +78,9 @@ li a.active {
 	/*text-align: center;*/
 	color:blue;
 	padding: 50px;
-	margin-left: 250px;
-	margin-right: 250px;
+	margin-left: 100px;
+	margin-right: 100px;
 	margin-bottom: 150px;
-	background: #d3d3d33b;
 }
 
 footer {
