@@ -1,7 +1,3 @@
-@media screen and (max-width: 959px) {
-	/*.text {
-		width: 100%;
-	}*/
 }
 .projecthtml {
 	height: 100vh;
@@ -21,7 +17,6 @@
 .html {
 	height: 100vh;
 	margin: 0px auto;
-	background-size: cover;
 	background-position: center;
 	background-image: url(https://kleconstruction.net/wp-content/uploads/2019/11/Copy-of-19096_BUILDWITT_0975.jpg);
 	background-repeat: no-repeat;
