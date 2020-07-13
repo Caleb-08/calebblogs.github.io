@@ -83,6 +83,10 @@ li a.active {
 	margin-bottom: 150px;
 }
 
+p {
+	color:black;
+}
+
 footer {
 	color: blue;
 	text-align: center;
