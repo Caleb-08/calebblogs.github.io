@@ -1,3 +1,8 @@
+@media screen and (max-width: 959px) {
+	/*.text {
+		width: 100%;
+	}*/
+}
 .projecthtml {
 	height: 100vh;
 	background-size: cover;
@@ -7,7 +12,7 @@
 
 .phtml {
 	height: 100vh;
-	background-size: 75%;
+	width: 960px;
 	background-position: center;
 	background-image: url(https://kleconstruction.net/wp-content/uploads/2019/11/Copy-of-19096_BUILDWITT_0975.jpg);
 	background-repeat: no-repeat;
@@ -15,6 +20,7 @@
 
 .html {
 	height: 100vh;
+	margin: 0px auto;
 	background-size: cover;
 	background-position: center;
 	background-image: url(https://kleconstruction.net/wp-content/uploads/2019/11/Copy-of-19096_BUILDWITT_0975.jpg);
@@ -92,7 +98,7 @@ li a.active {
 }
 
 p {
-	color:black;
+	color: black;
 }
 
 footer {
