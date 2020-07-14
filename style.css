@@ -75,7 +75,12 @@ li a.active {
 
 .img{
 	height: 500px;
-	width: 900px;
+	width: 975px;
+}
+
+.pprojectimg{
+	height: 200px;
+	width: 400px;
 }
 
 .phead {
@@ -101,14 +106,15 @@ li a.active {
 	margin-bottom: 150px;
 }
 
-content p {
+content p{
 	color: black;
 	font-size: 25px;
 }
 
 footer {
-	color: blue;
+	margin-top: 50px;
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 10px;
 	background-color: lightgrey;
+}
