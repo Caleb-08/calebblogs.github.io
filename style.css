@@ -52,7 +52,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-	background-color: transparent;
+	background-color: white;
 }
 
 li a.active {
@@ -119,4 +119,66 @@ footer {
 	font-family: sans-serif;
 	font-size: 10px;
 	background-color: lightgrey;
+}
+
+.cbody {
+	margin: 0px;
+	padding:0;
+	text-align: center;
+	background: url(cbackground.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif; 
+	background-repeat: no-repeat;
+}
+
+.contact-title {
+	margin-top: 100px;
+	color: black;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+	font-size: 32px;
+	line-height: 10px;
+}
+
+.contact-title h2 {
+	font-size: 16px;
+}
+
+form {
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+
+.form-control {
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 10px;
+	margin-bottom: 16px;
+}
+
+input {
+	height: 45px;
+}
+
+form .submit {
+	background: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form .submit:hover {
+	background-color: #f44336;
+	cursor: pointer;
 }
