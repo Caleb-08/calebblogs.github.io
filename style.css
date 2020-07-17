@@ -1,15 +1,36 @@
+.hbody {
+	margin: 0px;
+	padding:0px;
+	text-align: center;
+	background-size: auto;
+	background-position: center;
+	font-family: sans-serif; 
+	background-repeat: no-repeat;
+}
+
+.pbody {
+	margin: 0px;
+	padding:0px;
+	text-align: center;
+	background-size: auto;
+	background-position: center;
+	font-family: sans-serif; 
+	background-repeat: no-repeat;
+}
+
 .projecthtml {
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-	background-image: url(https://blytheconstruction.com/wp-content/themes/blythe-construction/images/DSC05538@2x.png);
+	background-image: url(pbackground.png);
 }
+
 
 .html {
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-	background-image: url(https://kleconstruction.net/wp-content/uploads/2019/11/Copy-of-19096_BUILDWITT_0975.jpg);
+	background-image: url(hbackground.jpg);
 	background-repeat: no-repeat;
 }
 
