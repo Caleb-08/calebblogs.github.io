@@ -87,9 +87,10 @@ li a.active {
 
 .parallax {
 	background: url(hbackground.jpg);
-	background-size: cover;
+	background-size: 100%;
 	background-attachment: fixed;
 	height: 700px;
+	background-repeat: no-repeat;
 }
 
 .head {
