@@ -2,10 +2,7 @@
 	margin: 0px;
 	padding:0px;
 	text-align: center;
-	background-size: auto;
-	background-position: center;
 	font-family: sans-serif; 
-	background-repeat: no-repeat;
 }
 
 .pbody {
@@ -20,7 +17,7 @@
 
 .projecthtml {
 	height: 100vh;
-	background-size: cover;
+	background-size: cover; 
 	background-position: center;
 	background-image: url(pbackground.png);
 }
@@ -88,9 +85,16 @@ li a.active {
 	border-left: 1px;
 }
 
+.parallax {
+	background: url(hbackground.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 700px;
+}
+
 .head {
 	padding-top: 0px;
-	padding-bottom: 250px;
+	padding-bottom: 0px;
 	text-align: center;
 }
 
@@ -123,10 +127,11 @@ h1 {
 
 .text {
 	padding: 50px;
-	margin-top: 350px;
+	margin-top: 50px;
 	margin-left: 100px;
 	margin-right: 100px;
 	margin-bottom: 150px;
+	line-height: 45px;
 }
 
 content p{
@@ -157,7 +162,7 @@ footer {
 	margin-top: 100px;
 	color: black;
 	text-transform: uppercase;
-	transition: all, 4s, ease-in-out;
+	transition: all 4s ease-in-out;
 }
 
 .contact-title h1 {
@@ -171,7 +176,7 @@ footer {
 
 form {
 	margin-top: 50px;
-	transition: all, 4s, ease-in-out;
+	transition: all 4s ease-in-out;
 }
 
 .form-control {
@@ -192,7 +197,7 @@ input {
 form .submit {
 	background: #ff5722;
 	border-color: transparent;
-	color: #fff;
+	color: black;
 	font-size: 20px;
 	letter-spacing: 2px;
 	height: 50px;
