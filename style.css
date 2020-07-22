@@ -7,24 +7,6 @@
   	min-height: 100vh;
 }
 
-.pbody {
-	margin: 0px;
-	padding:0px;
-	text-align: center;
-	background-size: auto;
-	background-position: center;
-	font-family: sans-serif; 
-	background-repeat: no-repeat;
-}
-
-.start {
-	padding: 25px;
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-top: 10%;
-	background: #d3d3d33b;
-}
-
 .nav a {
   float: left;
   font-size: 16px;
@@ -144,67 +126,82 @@ li a.active {
 	margin-bottom: 15px;
 }
 
-.pimg{
+.slider-frame {
+	overflow: hidden;
 	height: 500px;
-	width: 900px;
+	width: 1200px;
+	margin-left: 175px;
+	margin-top: 20px;
 }
 
-.project {
-	margin-bottom: 100px;
-	padding: 0 6px;
-	width: 25%;
-	float: left;
+/*------------------------SLIDE ANIMATION---------------------------*/	
+
+@-webkit-keyframes slide_animation {
+	0% {
+		left: 0px; 
+	}
+
+	10% {
+		left: 0px; 
+	}
+
+	20% {
+		left: 1200px; 
+	}
+
+	30% {
+		left: 1200px; 
+	}
+
+	40% {
+		left: 2400px; 
+	}
+
+	50% {
+		left: 2400px; 
+	}
+
+	60% {
+		left: 1200px; 
+	}
+
+	70% {
+		left: 1200px; 
+	}
+
+	80% {
+		left: 0px; 
+	}
+
+	90% {
+		left: 0px; 
+	}
+
+	100% {
+		left: 0px; 
+	}
+} 
+
+.slide-images {
+	width: 3600px;
+	height: 500px;
+	margin: 0 0 0 -2400px;
 	position: relative;
-  	min-height: 100vh;
+	-webkit-animation-name: slide_animation;
+	-webkit-animation-duration: 33s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
 }
 
-* {
-	box-sizing: border-box;
-}
-
-.imgBx img {
-	width: 100%;
-	height: auto;
-	max-width: 300px;
-}
-
-.content {
-	padding: 15px;
-	text-align: center;
-	padding-bottom: 2.5rem;
-}
-
-@media only screen and (max-width: 700px) {
-	.project{
-		width: 50%;
-		margin:6px 0;
-	}
-}
-
-@media only screen and (max-width: 500px) {
-	.project{
-		width: 100%;
-	}
-}
-
-.pprojectimg{
-	height: 200px;
-	width: 400px;
+.img-container {
+	height: 500px;
+	width: 800px;
+	position: relative;
 	float: left;
 }
 
-.phead {
-	text-align: center;
-
-}
-
-.ptext {
-	padding: 50px;
-	margin-top: 10px;
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-bottom: 150px;
-}
+/*-------------------------END OF ANIMATION-----------------*/
 
 h1 {
 	color: blue;
@@ -222,6 +219,12 @@ h1 {
 content p{
 	color: black;
 	font-size: 25px;
+	padding-bottom: 2.5rem;
+}
+
+.content p{
+	color: black;
+	font-size: 20px;
 	padding-bottom: 2.5rem;
 }
 
