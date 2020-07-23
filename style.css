@@ -126,60 +126,67 @@ li a.active {
 	margin-bottom: 15px;
 }
 
+/*----------------------------text animation--------------------------*/
+.anim {
+	font-size: 25px;
+	text-align: center;
+	position: absolute;
+	top: 400px;
+	left: 400px;
+	animation: mymove 6s 1 forwards;
+	animation-delay: 6s;
+}
+
+@keyframes mymove {
+  20% {
+  	color: transparent;
+  	left: 800px;
+  } 
+
+  100% {
+  	left: 400px;
+  	top: 700px;
+  } 
+
+}
+
+
+
 .slider-frame {
 	overflow: hidden;
 	height: 500px;
-	width: 1200px;
-	margin-left: 175px;
+	width: 1100px;
+	margin-left: 225px;
 	margin-top: 20px;
 }
+
+/*------------------------text animation----------------------------*/
 
 /*------------------------SLIDE ANIMATION---------------------------*/	
 
 @-webkit-keyframes slide_animation {
+
 	0% {
-		left: 0px; 
-	}
-
-	10% {
-		left: 0px; 
-	}
-
-	20% {
 		left: 1200px; 
 	}
 
-	30% {
+	25% {
 		left: 1200px; 
-	}
-
-	40% {
-		left: 2400px; 
 	}
 
 	50% {
 		left: 2400px; 
 	}
 
-	60% {
-		left: 1200px; 
-	}
-
-	70% {
-		left: 1200px; 
-	}
-
-	80% {
-		left: 0px; 
-	}
-
-	90% {
-		left: 0px; 
+	75% {
+		left: 2400px;
 	}
 
 	100% {
-		left: 0px; 
+		left: 2400px;
 	}
+
+
 } 
 
 .slide-images {
@@ -187,16 +194,13 @@ li a.active {
 	height: 500px;
 	margin: 0 0 0 -2400px;
 	position: relative;
-	-webkit-animation-name: slide_animation;
-	-webkit-animation-duration: 33s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-play-state: running;
+	animation: slide_animation 20s 1 forwards;
+	background-color: lightgrey;
 }
 
 .img-container {
-	height: 500px;
-	width: 800px;
+	height: 550px;
+	width: 400px;
 	position: relative;
 	float: left;
 }
