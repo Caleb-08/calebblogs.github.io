@@ -81,7 +81,6 @@ li a.active {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
 }
 .grid-item {
   padding: 20px;
@@ -89,7 +88,7 @@ li a.active {
 }
 
 .imgbox {
-	margin: 100px 100px 0 100px;
+	margin: 100px 50px 0 50px;
 	padding: 5px;
 	background-color: black;
 	color: white;
@@ -173,7 +172,7 @@ footer{
 
 .footer-body h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 36px 'Cookie';
 	margin: 0;
 }
 
