@@ -81,14 +81,15 @@ li a.active {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
+  margin: 0 15px 50px 35px;
 }
 .grid-item {
-  padding: 20px;
   text-align: center;
+  padding: 10px 0 10px 10px;
 }
 
 .imgbox {
-	margin: 100px 50px 0 50px;
+	margin: 50px 50px 0 50px;
 	padding: 5px;
 	background-color: black;
 	color: white;
@@ -153,7 +154,7 @@ footer{
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 50px 50px 60px 50px;
-	margin-top: 80px;
+	margin-top: -15px;
 }
 
 .footer-body .footer-left,
